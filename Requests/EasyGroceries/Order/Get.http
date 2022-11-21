@@ -1,0 +1,6 @@
+GET https://localhost:7073/order
+Content-Type: application/json
+
+###
+GET https://localhost:7073/order/46c62c7f-9245-4b14-aef5-ad2d580b9e07
+Content-Type: application/json

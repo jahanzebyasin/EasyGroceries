@@ -1,0 +1,6 @@
+GET https://localhost:7073/catalog
+Content-Type: application/json
+
+###
+GET https://localhost:7073/catalog/fc47290b-a30a-4ca4-9576-bfd6f6975304
+Content-Type: application/json

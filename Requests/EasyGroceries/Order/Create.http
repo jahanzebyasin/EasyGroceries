@@ -1,0 +1,98 @@
+POST https://localhost:7073/order
+Content-Type: application/json
+
+{
+    "id": "46c62c7f-9245-4b14-aef5-ad2d580b9e07",
+    "userId": "8dda17ef-4739-4db5-b916-5b367c645cb6",
+    "orderNumber": 854124,
+    "customer": 35496,
+    "orderItems": [
+      {
+        "id": "446a8ed3-4010-413d-9a97-92a86a62969c",
+        "item": {
+          "id": "a0750636-d4e2-4eab-8cbe-9d0165400249",
+          "name": "Milk",
+          "description": "Best of Cows",
+          "quantity": 10,
+          "price": 2.50,
+          "type": "Tangable"
+        },
+        "quantity": 2
+      },
+      {
+        "id": "15a28bf7-3d10-4331-b152-d4ed0eb90429",
+        "item": {
+          "id": "e3974788-d3a0-4fbd-a061-dbd954f507e4",
+          "name": "Bread",
+          "description": "Easy Toast",
+          "quantity": 10,
+          "price": 1.50,
+          "type": "Tangable"
+        },
+        "quantity": 1
+      }
+    ],
+    "total": 10
+}
+
+###
+POST https://localhost:7073/order
+Content-Type: application/json
+
+{
+  "id": "577f5a88-60d9-48f3-a663-7e1095b45ca0",
+  "userId": "7f783fbb-66a0-4504-af99-514d0fbd57ce",
+  "orderNumber": 854124,
+  "customer": 35496,
+  "orderItems": [
+    {
+      "id": "2ed61a35-4eb9-4ccc-98f3-d1c873335ca8",
+      "item": {
+        "id": "44d7ea78-07ff-4c57-9767-fcdd08c04021",
+        "name": "Milk",
+        "description": "Best of Cows",
+        "qunatity": 0,
+        "type": 0,
+        "price": 1.2
+      },
+      "quantity": 1
+    },
+    {
+      "id": "0fe47219-a1d2-45a1-a107-491bd8a8ae67",
+      "item": {
+        "id": "fb61f801-ad06-4c79-a954-016e0127faeb",
+        "name": "Bread",
+        "description": "Easy Toast",
+        "qunatity": 0,
+        "type": 0,
+        "price": 1
+      },
+      "quantity": 1
+    },
+    {
+      "id": "1bca1a23-3e5c-44b8-bfdd-f8d1d164ea6b",
+      "item": {
+        "id": "6c3de94e-4570-41df-9f08-40a3f8506345",
+        "name": "Eggs",
+        "description": "Wild chicken",
+        "qunatity": 0,
+        "type": 0,
+        "price": 0.2
+      },
+      "quantity": 1
+    }
+  ],
+  "total": 2.4000000000000004
+}
+
+###
+POST https://localhost:7073/order
+Content-Type: application/json
+
+{
+    "name": "Eggs",
+    "description" : "Easy Toast",
+    "qunatity" : 500,
+    "type":"Tangable",
+    "price":0.20
+}

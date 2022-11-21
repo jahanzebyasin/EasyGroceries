@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyGroceries", "EasyGroceries\EasyGroceries.csproj", "{3A0564B7-9CC9-4C63-BD86-A7366798F2FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EasyGroceries.contracts", "EasyGroceries.contracts\EasyGroceries.contracts.csproj", "{7A3D3FC8-4C7C-48F2-A75A-413965BB360C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3A0564B7-9CC9-4C63-BD86-A7366798F2FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A0564B7-9CC9-4C63-BD86-A7366798F2FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A0564B7-9CC9-4C63-BD86-A7366798F2FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A0564B7-9CC9-4C63-BD86-A7366798F2FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A3D3FC8-4C7C-48F2-A75A-413965BB360C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A3D3FC8-4C7C-48F2-A75A-413965BB360C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A3D3FC8-4C7C-48F2-A75A-413965BB360C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A3D3FC8-4C7C-48F2-A75A-413965BB360C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
